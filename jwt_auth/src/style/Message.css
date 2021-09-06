@@ -1,0 +1,15 @@
+#message{
+    margin: 20px 0;
+    color: #c11625;
+    background-color: rgb(255, 177, 177);
+    padding: 0 10px;
+    height: 40px;
+    border-radius: 4px;
+
+    padding: 0 20px;
+  
+    display: flex;
+    
+    justify-items: center;
+    align-items: center;
+}

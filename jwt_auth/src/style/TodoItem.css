@@ -1,0 +1,127 @@
+.todoitem{
+  margin: 10px 25px;
+  
+  width: 257px;
+  height: 298px;
+  background: #FFFFFF;
+  
+  border-radius: 27px;
+  position: relative;
+  overflow: hidden;
+cursor: move;
+
+  
+}
+
+.todo-body {
+  background-color: white;
+  
+  
+    height: 68%;
+    margin: 3%;
+    border-radius: 5px;
+    overflow-block: hidden;
+}
+
+.todo-btn {
+  
+  display: flex;
+
+
+  border-radius: 5px;
+  width: 100%;
+  position: absolute;
+  bottom: 5px;
+  justify-content: space-around;
+  
+
+}
+
+.click-btn{
+    background-color: #0083FC;
+    width: 120px;
+    height: 35px;
+    border: 1.5px solid black;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    margin: 5px;
+    cursor: pointer;
+    color: white;
+ 
+ 
+  }
+.clicked-btn{
+    background-color: #ffffff;
+    width: 120px;
+    height: 35px;
+    border: 1.5px solid black;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    margin: 5px;
+    cursor: pointer;
+ 
+ 
+  }
+
+  .setColor-btn{
+    background-color: #009CF4;
+    border: none;
+    color: white;
+    margin: 4px 2px 4px 8px;
+    width: 35px;
+    font-size: 12px;
+    border-radius: 10px;
+  }
+  .setColor-btn:hover{
+    box-shadow: 0 0 1px 0.5px #009CF4;
+  }
+
+  .delete-btn{
+  
+    background-color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    
+    padding: 0px 10px;
+    color: rgb(255, 0, 0);
+    height: 40px;
+    width: 40px;
+  }
+  
+  .delete-btn:hover{
+    background-color: #f00000;
+    color: rgb(255, 255, 255);
+    
+  }
+  
+
+  .color-btn{
+    height: 15px;
+    width: 15px;
+    border-radius: 10px;
+    border: none;
+    margin: 2px 3px;
+}
+
+.click-btn:hover {
+  box-shadow: 0 0 10px 1px #8d8d8d94;
+
+}
+
+
+.share-btn{
+  border: none;
+background-color: white;
+position: absolute;
+right: 18px;
+top: 2px;
+}
+
+.share-btn:hover{
+  color: rgb(0, 99, 247);
+  size: bold;
+}

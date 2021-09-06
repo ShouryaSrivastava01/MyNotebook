@@ -1,0 +1,29 @@
+
+
+
+nav {
+    border: 1px solid black;
+position: relative;
+padding: 10px;
+font-size: 1.4em;
+background-color: #0e6fff;
+display: flex;
+}
+#navbar-text {
+    border: 1px solid red;
+    position: absolute;
+   right: 10px;
+  
+    color: white;
+}
+#nav-menu{
+   
+
+align-self: end;
+
+}
+#nav-brand{
+    color: white;
+    margin: 0 10px;
+font-weight: bold;
+}

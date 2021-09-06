@@ -1,0 +1,30 @@
+.share-container{
+    width: 257px;
+height: 295px;
+background-color: white;
+
+
+margin: 0;
+overflow: hidden;
+border-radius: 27px;
+z-index: 10;
+position: relative;
+}
+
+.share-container form{
+    width: 80%;
+margin: 40px auto;
+}
+.share-container .share-fields{
+    width: 200px;
+margin: 10px 0;
+}
+
+.share-container .send-btn{
+    margin: 10px 0;
+    background-color: white;
+    border: none;
+}
+.share-container .send-btn:hover{
+    color: blue;
+}

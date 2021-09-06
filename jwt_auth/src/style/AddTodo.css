@@ -1,0 +1,52 @@
+.addTodo-container {
+    width: 42%;
+    box-shadow: 0 0 10px 5px #8b8989;
+    margin: 2px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    height: 88vh;
+    position: absolute;
+    left: 10px;
+    top: 60px;
+    z-index: 100;
+}
+
+.addTodo-container h3{
+    margin: 20px 0 40px 0px;
+}
+
+.addTodo-form {
+    display: flex;
+    flex-direction: column;
+    margin: 60px;
+}
+.addTodo-form input{
+    margin: 10px 0 20px 0;
+   
+}
+.addTodo-form textarea{
+    margin: 10px 0 20px 0;
+   
+}
+
+.addTodo-form button{
+    margin: 20px 0px;
+left: 10px;
+width: 80px;
+border-radius: 2px;
+background-color: #0e6fff;
+border: none;
+color: white;
+}
+
+
+.close-btn{
+    background-color: white;
+border: none;
+position: absolute;
+right: 10px;
+color: red;
+}
